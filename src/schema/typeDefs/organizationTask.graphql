@@ -1,0 +1,12 @@
+type OrganizationTask {
+    id: Int
+    title: String
+    description: String
+    isDone: Boolean
+    dateTimeCreated: String
+}
+
+type Query {
+    organizationTasks: [OrganizationTask]
+    organizationTask(id: Int): OrganizationTask
+}

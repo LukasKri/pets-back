@@ -278,7 +278,7 @@ CREATE TABLE organization_task (
     title VARCHAR(128),
     description TEXT,
     is_done BOOLEAN,
-    date_time TIMESTAMP
+    date_time_created TIMESTAMP
 );
 
 -- DATE UPDATES
