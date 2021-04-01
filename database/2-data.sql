@@ -1529,3 +1529,10 @@ VALUES
 (58, 'Vilniaus rajono savivaldybė'),
 (59, 'Visagino savivaldybė'),
 (60, 'Zarasų rajono savivaldybė');
+
+--- TASKS
+INSERT INTO organization_task (title, description, is_done)
+VALUES
+('Take away trash', 'Trash should be put in the container. Container can be found near the southern wall of the shelter', false),
+('Pet dog Rudolf', 'Dog Rudolf starts to bark everyday at 12:00 if it does not get pat in the morning. Barking never stops.', false),
+('Order cat food', 'Cat food is running out. Order ASAP!', true);

@@ -271,6 +271,16 @@ CREATE TABLE animal_event_given_away (
     date_time TIMESTAMP
 );
 
+-- TASKS 
+
+CREATE TABLE organization_task (
+    id SERIAL PRIMARY KEY,
+    title VARCHAR(128),
+    description TEXT,
+    is_done BOOLEAN,
+    date_time TIMESTAMP
+);
+
 -- DATE UPDATES
 
 CREATE EXTENSION moddatetime;
